@@ -1,0 +1,100 @@
+body,
+.card {
+  background-image: url(../images/nycskyline.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 70px;
+}
+.card {
+  padding: 25px;
+  border-style: groove;
+  border-color: #fff;
+  box-shadow: 5px 5px 5px rgb(235, 227, 227);
+}
+
+h1,
+h2,
+h3,
+.day,
+.time,
+.fahrenheit,
+.form-group,
+.row,
+.precipitation,
+.humidity,
+.realFeel,
+.wind {
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+}
+h1 {
+  text-transform: capitalize;
+}
+h3 {
+  margin-top: 20px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.humidity,
+.realFeel,
+.wind {
+  line-height: 0px;
+}
+.fahrenheit {
+  padding: 5px 10px;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 4px;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -45px;
+}
+.fahrenheit:hover {
+  color: rgb(81, 226, 137);
+}
+.fas {
+  color: #fff;
+}
+.fas:hover {
+  color: rgb(81, 226, 137);
+}
+.day {
+  margin-left: 325px;
+}
+.time {
+  margin-top: 12px;
+}
+.firstDay,
+.secondDay,
+.thirdDay,
+.fourthDay,
+.fifthDay,
+.sixthDay {
+  padding: 10px 15px;
+  margin-top: 50px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.sixthDay {
+  margin-right: 15px;
+}
+.form-text {
+  background-color: #fff;
+  border-style: groove;
+  border-color: #fff;
+  border-radius: 8px;
+  padding: 5px 12px;
+  box-shadow: 3px 3px 3px rgb(235, 227, 227);
+}
+.form-text:focus {
+  outline-color: rgb(180, 233, 170);
+}
